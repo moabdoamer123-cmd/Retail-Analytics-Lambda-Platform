@@ -1,13 +1,5 @@
 # 🛒 E-Commerce Data Pipeline — Lambda Architecture (Kafka • Spark • Hadoop • Hive • ClickHouse • Power BI)
 
-![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python&logoColor=white)
-![Spark](https://img.shields.io/badge/Apache%20Spark-3.5.3-E25A1C?logo=apachespark&logoColor=white)
-![Kafka](https://img.shields.io/badge/Apache%20Kafka-3.9.0-231F20?logo=apachekafka&logoColor=white)
-![Hadoop](https://img.shields.io/badge/Hadoop-HDFS%20%2B%20Hive-66CCFF?logo=apachehadoop&logoColor=white)
-![ClickHouse](https://img.shields.io/badge/ClickHouse-24.8-FFCC01?logo=clickhouse&logoColor=black)
-![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green)
-
 An end-to-end **Lambda Architecture** data platform that ingests, cleans, and serves e-commerce order data through both a **batch path** (historical data) and a **real-time streaming path** (live orders), unifying both in **ClickHouse** for analytics in **Power BI**.
 
 Built on the [Online Retail II](https://archive.ics.uci.edu/dataset/502/online+retail+ii) dataset (UK-based online retailer transactions), split chronologically to simulate a real production scenario: the first 70% of orders are treated as "historical" data, and the last 30% are replayed through Kafka to simulate live incoming orders.
