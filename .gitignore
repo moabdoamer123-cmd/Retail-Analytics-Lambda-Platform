@@ -1,0 +1,9 @@
+# Ignore dataset files
+*.xlsx
+*.csv
+
+# Ignore Python environment and cache
+__pycache__/
+*.pyc
+.env
+.venv/
